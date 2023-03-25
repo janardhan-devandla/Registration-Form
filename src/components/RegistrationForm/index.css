@@ -1,0 +1,48 @@
+/* Write your CSS code here */
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.form-container {
+  width: 300px;
+  box-shadow: 0px 4px 16px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.form-name {
+  color: #ea580c;
+}
+.firstName-container {
+  margin-bottom: 20px;
+}
+
+.lastName-container {
+  margin-bottom: 20px;
+}
+.submitButton {
+  background-color: #ea580c;
+  color: white;
+  border-radius: 5px;
+  border-width: 0px;
+  height: 25px;
+}
+
+.error-msg {
+  color: #ff0b37;
+}
+
+.er-msg {
+  background-color: #fef2f4;
+  border: 1px solid #ff0b37;
+}
+.submit-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
